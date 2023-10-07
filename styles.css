@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest&display=swap');
+* {
+  padding: 0;
+  font-family: 'Onest', sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: azure;
+  padding: 20px;
+}
+
+dl {
+  background-color: rgba(71, 0, 85, 0.084);
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(59, 97, 93, 0.625);
+  backdrop-filter: blur(10px);
+  border: 1px solid white;
+  padding: 12px;
+}
+
+dt {
+  margin: 20px;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  border: 2px solid rebeccapurple;
+  padding: 10px;
+  border-radius: 13px;
+  display: flex;
+  background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+  color: white;
+  text-shadow: 0 0 2px black;
+  font-size: 1.4vw;
+  overflow-x: hidden;
+  width: 80%;
+  box-shadow: rgba(4, 4, 4, 0.845) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.647) 0px 50px 100px -20px, rgba(0, 0, 0, 0.852) 0px 30px 60px -30px;
+  margin: auto;
+  transition: all ease 0.4s;
+}
+
+
